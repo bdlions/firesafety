@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="keywords" content="fire safety singapore industry building plant yead bukit batok crescent SCDF MOM WSHO WSHC ECO">
+        <meta name="keywords" content="fire safety singapore industry building plant yead bukit batok crescent SCDF MOM WSHO WSHC ECO">
 
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -31,25 +31,23 @@
                         </div>
                         <div class="col-xs-12 col-sm-8 col-md-8 col-lg-7">
                             <nav class="navbar navbar-default header-navbar-custom margin-top-bottom-50px">
-                                <div class="container-fluid">
-                                    <div class="navbar-header">
-                                        <button type="button" class="navbar-toggle navbar-toggle-custom collapsed" data-toggle="collapse" data-target="#header-navbar-collapse" aria-expanded="false">
-                                            <span class="sr-only">Toggle navigation</span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                        </button>
-                                    </div>
-                                    <div class="collapse navbar-collapse navbar-collapse-custom " id="header-navbar-collapse">
-                                         <ul class="nav navbar-nav nav-custom">
-                                            <li><a class="hvr-rectangle-out" href="index.php">Home</a></li>
-                                            <li><a class="hvr-rectangle-out" href="company-profile.php">Company Profile</a></li>
-                                            <li class="active"><a class="hvr-rectangle-out" href="services.php">Services</a></li>
-                                            <li><a class="hvr-rectangle-out" href="career.php">Careers</a></li>
-                                            <li><a class="hvr-rectangle-out" href="links.php">Links</a></li>
-                                            <li><a class="hvr-rectangle-out" href="contact-us.php">Contact Us</a></li>
-                                        </ul>
-                                    </div>
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle navbar-toggle-custom collapsed" data-toggle="collapse" data-target="#header-navbar-collapse" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="collapse navbar-collapse navbar-collapse-custom " id="header-navbar-collapse">
+                                    <ul class="nav navbar-nav nav-custom">
+                                        <li><a class="hvr-rectangle-out" href="index.php">Home</a></li>
+                                        <li><a class="hvr-rectangle-out" href="company-profile.php">Company Profile</a></li>
+                                        <li class="active"><a class="hvr-rectangle-out" href="services.php">Services</a></li>
+                                        <li><a class="hvr-rectangle-out" href="career.php">Available Positions</a></li>
+                                        <li><a class="hvr-rectangle-out" href="links.php">Links</a></li>
+                                        <li><a class="hvr-rectangle-out" href="contact-us.php">Contact Us</a></li>
+                                    </ul>
                                 </div>
                             </nav>
                         </div>
@@ -73,13 +71,13 @@
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 margin-top-20px form-group">
                         <div class="services wow fadeInLeftBig fade-timer-1st">
                             <div class="service-image"><img src="images/ico-safety.png" class="image-50x50" alt="ico-safety"></div>
-                            <div class="service-content">SCDF Certified and Registered Fire Safety Manager Provider.</div>
+                            <div class="service-content">SCDF-Certified and Registered Fire Safety Manager Provider.</div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 margin-top-20px form-group">
                         <div class="services wow fadeInRightBig fade-timer-2nd">
                             <div class="service-image"><img src="images/ico-training.png" class="image-50x50" alt="ico-training"></div>
-                            <div class="service-content">Fire Safety Training .</div>
+                            <div class="service-content">In-house Fire Safety Awareness/Fire Fighting Training Provider.</div>
                         </div>
                     </div>
                 </div>
@@ -87,7 +85,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 margin-top-20px form-group">
                         <div class="services wow fadeInLeftBig fade-timer-3rd">
                             <div class="service-image"><img src="images/ico-maintenance.png" class="image-50x50" alt="ico-maintenance"></div>
-                            <div class="service-content">Fire Safety Equipment Supply and Maintenance.</div>
+                            <div class="service-content">Fire Safety Equipment Supply & Maintenance.</div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 margin-top-20px form-group">
@@ -121,7 +119,15 @@
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 margin-top-20px form-group">
                         <div class="services wow fadeInRightBig fade-timer-8th">
                             <div class="service-image"><img src="images/ico-assessor.png" class="image-50x50" alt="ico-assessor"></div>
-                            <div class="service-content">Provide MOM Certified WSHO, WSHC,ECO and Safety Assessor.</div>
+                            <div class="service-content">Provide MOM Certified WSHO, WSHC, ECO and Safety Assessor(Hotwork & Confined Space).</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin-top-20px">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 margin-top-20px form-group">
+                        <div class="services wow fadeInLeftBig fade-timer-7th">
+                            <div class="service-image"><img src="images/ico-assessor.png" class="image-50x50" alt="ico-emergency"></div>
+                            <div class="service-content">Provide Gas Free Certification for Confined Spaces.</div>
                         </div>
                     </div>
                 </div>

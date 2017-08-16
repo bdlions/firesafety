@@ -361,3 +361,10 @@ a:hover{
     -moz-animation-delay: 1.6s;
     animation-delay: 1.6s;
 }
+.error{
+    color: red!important;
+}
+
+.success{
+    color: green!important;
+}
