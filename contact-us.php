@@ -1,24 +1,58 @@
 <?php
 if (isset($_POST['send_message'])) {
-    $name = "";
+    $error_message = "";
+	$success_message = "";
+	$name = "";
     $email = "";
-    $subject = "";
+	$contact_no = "";
+	$company_name = "";
+    //$subject = "";
     $message = "";
-    if (isset($_POST['name'])) {
+    if (isset($_POST['name']) && !empty($_POST['name'])) {
         $name = $_POST['name'];
     }
-    if (isset($_POST['email'])) {
+	else
+	{
+		$error_message = "Name is requried.<br/>";
+	}
+    if (isset($_POST['email']) && !empty($_POST['email'])) {
         $email = $_POST['email'];
     }
-    if (isset($_POST['subject'])) {
-        $subject = $_POST['subject'];
+	else
+	{
+		$error_message = $error_message."Email is requried.<br/>";
+	}
+	if (isset($_POST['contact_no'])  && !empty($_POST['contact_no'])) {
+        $contact_no = $_POST['contact_no'];
     }
+	else
+	{
+		$error_message = $error_message."Contact No is requried.<br/>";
+	}
+	if (isset($_POST['company_name'])) {
+        $company_name = $_POST['company_name'];
+    }
+    //if (isset($_POST['subject'])) {
+    //    $subject = $_POST['subject'];
+    //}
     if (isset($_POST['message'])) {
         $message = $_POST['message'];
     }
-    //print_r($name.$email.$subject.$message);
-    $headers = "From: admin@fsmcsg.com";
-    print_r(mail($email, $subject, $message, $headers));
+	//print_r($name.$email.$contact_no.$company_name.$message);
+	$mail_content = "Name:" . $name . ", Contact No:" . $contact_no . ", Compnay:" . $company_name . ", Email:" . $email . ", Message:" . $message;
+	$headers = "From: " . $email;
+	if(empty($error_message))
+	{
+		if(mail("riad.cse13.sust@gmail.com", $email, $mail_content, $headers))
+		{
+			$success_message = "Your messaage is sent successfully.";
+		}
+		else
+		{
+			$error_message = "Internal server error. Please try again later.";
+		}
+	}
+    
 }
 ?>
 
@@ -51,7 +85,7 @@ if (isset($_POST['send_message'])) {
                 <div class="container">
                     <div class="row margin-top-bottom-10px">
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-5">
-                            <a href="index.html"><img class="img-responsive margin-top-bottom-10px" src="images/logo.png" alt="Logo"></a>
+                            <a href="index.php"><img class="img-responsive margin-top-bottom-10px" src="images/logo.png" alt="Logo"></a>
                         </div>
                         <div class="col-xs-12 col-sm-8 col-md-8 col-lg-7">
                             <nav class="navbar navbar-default header-navbar-custom margin-top-bottom-50px">
@@ -96,12 +130,16 @@ if (isset($_POST['send_message'])) {
                     </div>
                 </div>
                 <form action="contact-us.php" method="post">
-<!--                    <div class="row form-group">
+                   <div class="row form-group">
                         <div class="col-xs-12 col-sm-4 col-md-offset-3 col-md-4 col-lg-offset-3 col-lg-4">
-                            <div class="error">Message sent Successfully</div>
-                            <div class="success">Message not sent Successfully</div>
+                            <?php if(isset($success_message)){ ?>
+							<div class="success"><?php echo $success_message; ?></div>
+							<?php } ?>
+							<?php if(isset($error_message)){ ?>
+                            <div class="error"><?php echo $error_message; ?></div>
+							<?php } ?>
                         </div>
-                    </div>-->
+                    </div>
                     <div class="row form-group margin-top-50px">
                         <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
                             <label class="wow fadeInLeftBig fade-timer-1st">Your Name (required)</label>
@@ -123,7 +161,7 @@ if (isset($_POST['send_message'])) {
                             <label class="wow fadeInLeftBig fade-timer-3rd">Your Contact No(required)</label>
                         </div>
                         <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
-                            <input type="text" class="form-control wow fadeInRightBig fade-timer-3rd" name="contact-no">
+                            <input type="text" class="form-control wow fadeInRightBig fade-timer-3rd" name="contact_no">
                         </div>
                     </div>
                     <div class="row form-group">
@@ -131,7 +169,7 @@ if (isset($_POST['send_message'])) {
                             <label class="wow fadeInLeftBig fade-timer-4th">Company Name</label>
                         </div>
                         <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
-                            <input type="text" class="form-control wow fadeInRightBig fade-timer-4th" name="contact-name">
+                            <input type="text" class="form-control wow fadeInRightBig fade-timer-4th" name="company_name">
                         </div>
                     </div>
 <!--                    <div class="row form-group">
