@@ -27,7 +27,7 @@
                 <div class="container">
                     <div class="row margin-top-bottom-10px">
                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-5">
-                            <a href="index.php"><img class="img-responsive margin-top-bottom-10px" src="images/logo.png" alt="Logo"></a>
+                            <a href="index.html"><img class="img-responsive margin-top-bottom-10px" src="images/logo.png" alt="Logo"></a>
                         </div>
                         <div class="col-xs-12 col-sm-8 col-md-8 col-lg-7">
                             <nav class="navbar navbar-default header-navbar-custom margin-top-bottom-50px">
@@ -75,7 +75,7 @@
                 </div>
             </div>
             <div class="container">
-                <div class="row margin-top-20px">
+                <div class="row mission-vision">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
                         <h3 class="wow fadeInUpBig" data-wow-duration="1s">MISSION</h3>
                         <p class="text-uppercase mission-text wow fadeInLeftBig" data-wow-duration="1s">EXCEED COUSTOMER EXPECTATION THROUGH PROVIDING HIGEST QUALITY SERVICE AND PROFESSIONALISM</p>
@@ -89,7 +89,7 @@
             <div class="push"></div>
         </div>
         <footer class="footer">
-            <div class="footer-wrapper margin-top-50px">
+            <div class="footer-wrapper">
                 <div class="container">
                     <div class="row margin-top-bottom-25px">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">

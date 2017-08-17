@@ -13,20 +13,25 @@ Author: A.K.M. Nazmul Islam*/
 html, body {
     font-family: 'robotolight';
     height: 100%;
-    color: #212121;
+    color: #fff;
     font-size: 15px;
     line-height: 150%;
     margin: 0;
     padding: 0;
 }
+body{
+    background: url("../images/fire.jpg");
+    /*background-repeat: no-repeat;*/
+    background-size: auto auto;
+    height: 100%;
+    /*    background: url("../images/fire.jpg") no-repeat scroll 0 0;
+        background-size: 100% 100%;
+        height: 100%; */
 
+}
 .wrapper {
     min-height: 100%;
     margin-bottom: -60px;
-}
-body{
-    background: url("../images/fire.jpg") no-repeat scroll 0 0;
-    background-size: auto auto;
 }
 .footer,
 .push {
@@ -204,7 +209,7 @@ a:hover{
     line-height: 150%;
 }
 .welcome-note,.welcome-para{
-    color: #212121;
+    color: #fff;
 }
 .mission-text, .vision-text{
     font-size: 16px;
@@ -286,6 +291,9 @@ a:hover{
     .navbar-collapse-custom{
         float: right!important;
     }
+    .mission-vision{
+        margin-bottom: 50px;
+    }
 }
 @media (min-width : 992px) and (max-width : 1199px) {
     .home-layout-bg{
@@ -301,6 +309,9 @@ a:hover{
     .navbar-collapse-custom{
         float: right!important;
     }
+    .mission-vision{
+        margin-bottom: 50px;
+    }
 }
 @media (min-width : 1200px) {
     .home-layout-bg{
@@ -315,6 +326,9 @@ a:hover{
     }
     .navbar-collapse-custom{
         float: right!important;
+    }
+    .mission-vision{
+        margin-bottom: 50px;
     }
 }
 .fade-timer-1st{
@@ -361,7 +375,7 @@ a:hover{
 }
 .fade-timer-8th{
     visibility: visible; 
-     -webkit-animation-delay: 1.6s; 
+    -webkit-animation-delay: 1.6s; 
     -moz-animation-delay: 1.6s;
     animation-delay: 1.6s;
 }
