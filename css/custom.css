@@ -13,22 +13,13 @@ Author: A.K.M. Nazmul Islam*/
 html, body {
     font-family: 'robotolight';
     height: 100%;
-    color: #fff;
-    font-size: 15px;
+    color: #212121;
+    font-size: 20px;
     line-height: 150%;
     margin: 0;
     padding: 0;
 }
-body{
-    background: url("../images/fire.jpg");
-    /*background-repeat: no-repeat;*/
-    background-size: auto auto;
-    height: 100%;
-    /*    background: url("../images/fire.jpg") no-repeat scroll 0 0;
-        background-size: 100% 100%;
-        height: 100%; */
 
-}
 .wrapper {
     min-height: 100%;
     margin-bottom: -60px;
@@ -37,13 +28,23 @@ body{
 .push {
     height: 60px;
 }
+.header-bg{
+    background: #2C3E50;
+    margin-bottom: 15px;
+}
 h1,h2,h3,h4,h5,h6{
     line-height: 150%;
     margin-top: 10px!important;
     margin-bottom: 10px!important;
 }
+h4{
+    font-size: 20px!important; 
+}
 p{
     line-height: 150%;
+}
+label{
+    font-size: 17px;
 }
 a{
     font-size: 15px;
@@ -209,10 +210,11 @@ a:hover{
     line-height: 150%;
 }
 .welcome-note,.welcome-para{
-    color: #fff;
+    color: #212121;
 }
 .mission-text, .vision-text{
     font-size: 16px;
+    line-height: 180%;
 }
 .services{
     display: inline-block;
@@ -273,6 +275,20 @@ a:hover{
         margin-bottom: 20px;
         padding: 10px;
     }
+    .welcomemsg {
+        background-color: #FFFFFF;
+        font-size: 14px;
+        left: 10px;
+        opacity: 0.7;
+        padding: 5px 10px;
+        position: absolute;
+        top: 44px;
+        z-index: 99;
+    }
+    .header-navbar-custom{
+        margin-top: 0!important;
+        margin-bottom: 0!important;
+    }
 }
 @media (min-width : 768px) and (max-width : 991px) {
     .nav-custom > li > a{
@@ -286,13 +302,30 @@ a:hover{
         margin-bottom: 60px;
     }
     .header-navbar-custom {
-        margin-right: -32px;
+        margin-right: -18px;
     }
     .navbar-collapse-custom{
         float: right!important;
     }
     .mission-vision{
         margin-bottom: 50px;
+    }
+    .welcomemsg {
+        background-color: #FFFFFF;
+        font-size: 22px;
+        left: 0;
+        opacity: 0.7;
+        padding: 17px 30px;
+        position: absolute;
+        top: 44px;
+        z-index: 99;
+    }
+    .carousel-inner-custom > .item > img{
+        width: 100%;
+    }
+    .header-navbar-custom{
+        margin-top: 50px!important;
+        margin-bottom: 50px!important;
     }
 }
 @media (min-width : 992px) and (max-width : 1199px) {
@@ -304,7 +337,7 @@ a:hover{
         margin-bottom: 60px;
     }
     .header-navbar-custom {
-        margin-right: -32px;
+        margin-right: -18px;
     }
     .navbar-collapse-custom{
         float: right!important;
@@ -312,6 +345,24 @@ a:hover{
     .mission-vision{
         margin-bottom: 50px;
     }
+    .welcomemsg {
+        background-color: #FFFFFF;
+        font-size: 22px;
+        left: 0;
+        opacity: 0.7;
+        padding: 17px 30px;
+        position: absolute;
+        top: 44px;
+        z-index: 99;
+    }
+    .carousel-inner-custom > .item > img{
+        width: 100%;
+    }
+    .header-navbar-custom{
+        margin-top: 50px!important;
+        margin-bottom: 50px!important;
+    }
+
 }
 @media (min-width : 1200px) {
     .home-layout-bg{
@@ -322,13 +373,30 @@ a:hover{
         margin-bottom: 60px;
     }
     .header-navbar-custom {
-        margin-right: -32px;
+        margin-right: -18px;
     }
     .navbar-collapse-custom{
         float: right!important;
     }
     .mission-vision{
         margin-bottom: 50px;
+    }
+    .welcomemsg {
+        background-color: #FFFFFF;
+        font-size: 22px;
+        left: 0;
+        opacity: 0.7;
+        padding: 17px 30px;
+        position: absolute;
+        top: 44px;
+        z-index: 99;
+    }
+    .carousel-inner-custom > .item > img{
+        width: 100%;
+    }
+    .header-navbar-custom{
+        margin-top: 50px!important;
+        margin-bottom: 50px!important;
     }
 }
 .fade-timer-1st{
@@ -385,4 +453,108 @@ a:hover{
 
 .success{
     color: green!important;
+}
+/*-------------- quick message ---------------*/
+#small-msg-box{
+    font-size: 15px;
+    margin-left: 10px; 
+    margin-right: 10px;
+    position: fixed; 
+    bottom: 0; 
+    right: 15px; 
+    background-color: #E67E22; 
+    padding: 0px 32px; 
+    cursor: pointer; 
+}
+#large-msg-box{
+    font-size: 15px;
+    position: fixed; 
+    bottom: 0; 
+    right: 15px; 
+    background-color: #E67E22; 
+    display: none;
+}
+
+.large-msg-box-header{
+    background-color: #E67E22;  
+    padding: 0px 10px; 
+}
+.large-msg-box-white-content-area{
+    background-color: white; 
+    color: #212121;
+    padding: 5px 10px; 
+}
+#large-msg-box .large-msg-box-header-text,#large-msg-box .close-msg-box {
+    display: inline-block;
+}
+.large-msg-box-header-text{
+    font-weight: bold;
+}
+.large-msg-box-header-text,.close-msg-box, #small-msg-box{
+    color: #fff;
+}
+.close-msg-box{
+    margin-top: 3px;
+    cursor: pointer; 
+}
+.link a img{
+    border: 1px solid #3f51b5;
+}
+
+/*-------------- carousel ---------------*/
+.black {
+    color: #000000;
+}
+
+
+.carousel-control.left {
+    background-image: none!important;
+}
+.carousel-control.right {
+    background-image: none!important;
+}
+
+
+.tp-leftarrow{	
+    cursor:pointer; 
+    position:absolute;	
+    background:url(../images/large_left.png) no-repeat top left;	
+    width:40px;	
+    height:40px;   
+    top: 50%;
+    left: 50%;
+}
+
+.tp-rightarrow{	
+    cursor:pointer; 
+    position:absolute;	
+    background:url(../images/large_right.png) no-repeat top left;	
+    width:40px;	
+    height:40px;   
+    top: 50%;
+    right: 50%;
+}
+
+.carousel-indicators li {
+    background-color: #333!important;
+    border: 1px solid #333!important;
+    border-radius: 0!important;
+    cursor: pointer;
+    display: inline-block;
+    height: 12px!important;
+    margin: 1px;
+    text-indent: -999px;
+    width: 12px!important;
+}
+
+.carousel-indicators .active {
+    background-color: #E67E22!important;
+    border: 1px solid #E67E22!important;
+    border-radius: 0!important;
+    cursor: pointer!important;
+    display: inline-block;
+    height: 12px!important;
+    margin: 1px!important;
+    text-indent: -999px;
+    width: 12px!important;
 }

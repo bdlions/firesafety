@@ -1,35 +1,29 @@
 <?php
 if (isset($_POST['send_message'])) {
     $error_message = "";
-	$success_message = "";
-	$name = "";
+    $success_message = "";
+    $name = "";
     $email = "";
-	$contact_no = "";
-	$company_name = "";
+    $contact_no = "";
+    $company_name = "";
     //$subject = "";
     $message = "";
     if (isset($_POST['name']) && !empty($_POST['name'])) {
         $name = $_POST['name'];
+    } else {
+        $error_message = "Name is requried.<br/>";
     }
-	else
-	{
-		$error_message = "Name is requried.<br/>";
-	}
     if (isset($_POST['email']) && !empty($_POST['email'])) {
         $email = $_POST['email'];
+    } else {
+        $error_message = $error_message . "Email is requried.<br/>";
     }
-	else
-	{
-		$error_message = $error_message."Email is requried.<br/>";
-	}
-	if (isset($_POST['contact_no'])  && !empty($_POST['contact_no'])) {
+    if (isset($_POST['contact_no']) && !empty($_POST['contact_no'])) {
         $contact_no = $_POST['contact_no'];
+    } else {
+        $error_message = $error_message . "Contact No is requried.<br/>";
     }
-	else
-	{
-		$error_message = $error_message."Contact No is requried.<br/>";
-	}
-	if (isset($_POST['company_name'])) {
+    if (isset($_POST['company_name'])) {
         $company_name = $_POST['company_name'];
     }
     //if (isset($_POST['subject'])) {
@@ -38,51 +32,25 @@ if (isset($_POST['send_message'])) {
     if (isset($_POST['message'])) {
         $message = $_POST['message'];
     }
-	//print_r($name.$email.$contact_no.$company_name.$message);
-	$mail_content = "Name:" . $name . ", Contact No:" . $contact_no . ", Compnay:" . $company_name . ", Email:" . $email . ", Message:" . $message;
-	$headers = "From: " . $email;
-	if(empty($error_message))
-	{
-		if(mail("riad.cse13.sust@gmail.com", $email, $mail_content, $headers))
-		{
-			$success_message = "Your messaage is sent successfully.";
-		}
-		else
-		{
-			$error_message = "Internal server error. Please try again later.";
-		}
-	}
-    
+    //print_r($name.$email.$contact_no.$company_name.$message);
+    $mail_content = "Name:" . $name . ", Contact No:" . $contact_no . ", Compnay:" . $company_name . ", Email:" . $email . ", Message:" . $message;
+    $headers = "From: " . $email;
+    if (empty($error_message)) {
+        if (mail("riad.cse13.sust@gmail.com", $email, $mail_content, $headers)) {
+            $success_message = "Your messaage is sent successfully.";
+        } else {
+            $error_message = "Internal server error. Please try again later.";
+        }
+    }
 }
 ?>
 
-<!doctype html>
-<html lang="">
-    <head>
-        <!--[if lt IE 8]>
-           <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-       <![endif]-->
-        <title>FSMC</title>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="keywords" content="fire safety singapore industry building plant yead bukit batok crescent SCDF MOM WSHO WSHC ECO">
-
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/custom.css">
-
-        <script src="js/jquery-1.12.0.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/wow.min.js"></script>
-        <script src="js/custom.js"></script>
-
-    </head>
-    <body>
-        <div class="wrapper">
-            <header id="header">
-                <div class="container">
+<?php include './header.php'; ?>
+<body>
+    <div class="wrapper">
+        <header id="header">
+            <div class="container">
+                <div class="header-bg">
                     <div class="row margin-top-bottom-10px">
                         <div class="col-xs-12 col-sm-3 col-md-4 col-lg-5">
                             <a href="index.php"><img class="img-responsive margin-top-bottom-10px" src="images/logo.png" alt="Logo"></a>
@@ -111,102 +79,94 @@ if (isset($_POST['send_message'])) {
                         </div>
                     </div>
                 </div>
-            </header>
-            <!--            <div class="container">
-                            <section id="top-section">
-                                <header>
-                                    <h1>Contact Us</h1>
-                                </header>
-                            </section>
-                        </div>-->
-            <div class="container">
-                <div class="row form-group margin-top-bottom-50px">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 wow fadeInDown" data-wow-duration="1s">
-                        <h4> Address/Contact Info : </h4><br>                
-                        21 Bukit Batok Crescent #12-79 Wcega <br>                                  
-                        Tower Singapore 658065  <br> <br>     
-                        Email: sales@fsmcsg.com        <br>                               
-                        Tel no: +65 85786896 / 91697931
-                    </div>
-                </div>
-                <form action="contact-us.php" method="post">
-                   <div class="row form-group">
-                        <div class="col-xs-12 col-sm-4 col-md-offset-3 col-md-4 col-lg-offset-3 col-lg-4">
-                            <?php if(isset($success_message)){ ?>
-							<div class="success"><?php echo $success_message; ?></div>
-							<?php } ?>
-							<?php if(isset($error_message)){ ?>
-                            <div class="error"><?php echo $error_message; ?></div>
-							<?php } ?>
-                        </div>
-                    </div>
-                    <div class="row form-group margin-top-50px">
-                        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-                            <label class="wow fadeInLeftBig fade-timer-1st">Your Name (required)</label>
-                        </div>
-                        <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
-                            <input type="text" class="form-control wow fadeInRightBig fade-timer-1st" name="name">
-                        </div>
-                    </div>
-                    <div class="row form-group">
-                        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-                            <label class="wow fadeInLeftBig fade-timer-2nd">Your Email (required)</label>
-                        </div>
-                        <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
-                            <input type="text" class="form-control wow fadeInRightBig fade-timer-2nd" name="email">
-                        </div>
-                    </div>
-                    <div class="row form-group">
-                        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-                            <label class="wow fadeInLeftBig fade-timer-3rd">Your Contact No(required)</label>
-                        </div>
-                        <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
-                            <input type="text" class="form-control wow fadeInRightBig fade-timer-3rd" name="contact_no">
-                        </div>
-                    </div>
-                    <div class="row form-group">
-                        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-                            <label class="wow fadeInLeftBig fade-timer-4th">Company Name</label>
-                        </div>
-                        <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
-                            <input type="text" class="form-control wow fadeInRightBig fade-timer-4th" name="company_name">
-                        </div>
-                    </div>
-<!--                    <div class="row form-group">
-                        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-                            <label class="wow fadeInLeftBig fade-timer-3rd">Subject</label>
-                        </div>
-                        <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
-                            <input type="text" class="form-control wow fadeInRightBig fade-timer-3rd" name="subject">
-                        </div>
+            </div>
+        </header>
+        <!--            <div class="container">
+                        <section id="top-section">
+                            <header>
+                                <h1>Contact Us</h1>
+                            </header>
+                        </section>
                     </div>-->
-                    <div class="row form-group">
-                        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-                            <label class="wow fadeInLeftBig fade-timer-5th">Your Message</label>
+        <div class="container">
+            <div class="row form-group margin-top-bottom-50px">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 wow fadeInDown" data-wow-duration="1s">
+                    <h4> Address/Contact Info : </h4><br>                
+                    21 Bukit Batok Crescent #12-79 Wcega <br>                                  
+                    Tower Singapore 658065  <br> <br>     
+                    Email: sales@fsmcsg.com        <br>                               
+                    Tel no: +65 85786896 / 91697931
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <form action="contact-us.php" method="post">
+                        <div class="row form-group">
+                            <div class="col-xs-12 col-sm-4 col-md-offset-3 col-md-4 col-lg-offset-3 col-lg-4">
+                                <?php if (isset($success_message)) { ?>
+                                    <div class="success"><?php echo $success_message; ?></div>
+                                <?php } ?>
+                                <?php if (isset($error_message)) { ?>
+                                    <div class="error"><?php echo $error_message; ?></div>
+                                <?php } ?>
+                            </div>
                         </div>
-                        <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
-                            <textarea rows="5" class="form-control wow fadeInRightBig fade-timer-5th" name="message"></textarea>
+                        <div class="row form-group margin-top-50px">
+                            <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
+                                <label class="wow fadeInLeftBig fade-timer-1st">Your Name (required)</label>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7">
+                                <input type="text" class="form-control wow fadeInRightBig fade-timer-1st" name="name">
+                            </div>
                         </div>
-                    </div>
-                    <div class="row form-group">
-                        <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
-                            <button name="send_message" type="submit" class="custom-button pull-right wow fadeInRightBig fade-timer-6th">Send</button>
+                        <div class="row form-group">
+                            <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
+                                <label class="wow fadeInLeftBig fade-timer-2nd">Your Email (required)</label>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7">
+                                <input type="text" class="form-control wow fadeInRightBig fade-timer-2nd" name="email">
+                            </div>
                         </div>
-                    </div>
-                </form>
-            </div>
-            <div class="push"></div>
-        </div>
-        <footer class="footer">
-            <div class="footer-wrapper margin-top-50px">
-                <div class="container">
-                    <div class="row margin-top-bottom-25px">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <p class="footer-text">Fire safety © 2017. Singapore Fire Safety Managers. All Rights Reserved.</p>
+                        <div class="row form-group">
+                            <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
+                                <label class="wow fadeInLeftBig fade-timer-3rd">Your Contact No (required)</label>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7">
+                                <input type="text" class="form-control wow fadeInRightBig fade-timer-3rd" name="contact_no">
+                            </div>
                         </div>
-                    </div>
+                        <div class="row form-group">
+                            <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
+                                <label class="wow fadeInLeftBig fade-timer-4th">Company Name</label>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7">
+                                <input type="text" class="form-control wow fadeInRightBig fade-timer-4th" name="company_name">
+                            </div>
+                        </div>
+                        <!--                    <div class="row form-group">
+                                                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+                                                    <label class="wow fadeInLeftBig fade-timer-3rd">Subject</label>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7">
+                                                    <input type="text" class="form-control wow fadeInRightBig fade-timer-3rd" name="subject">
+                                                </div>
+                                            </div>-->
+                        <div class="row form-group">
+                            <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
+                                <label class="wow fadeInLeftBig fade-timer-5th">Your Message</label>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7">
+                                <textarea rows="5" class="form-control wow fadeInRightBig fade-timer-5th" name="message"></textarea>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <button name="send_message" type="submit" class="custom-button pull-right wow fadeInRightBig fade-timer-6th">Send</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
-        </footer>
-    </body>
-</html>
+
+        </div>
+        <div class="push"></div>
+    </div>
+    <?php include './footer.php'; ?>
