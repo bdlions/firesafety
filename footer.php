@@ -1,3 +1,25 @@
+<?php
+if (isset($_POST['quick-msg-send-btn'])) 
+{
+	$footer_name = "";
+    $footer_email = "";
+    $footer_message = "";
+	if (isset($_POST['footer_name']) && !empty($_POST['footer_name'])) {
+        $footer_name = $_POST['footer_name'];
+    }
+	if (isset($_POST['footer_email']) && !empty($_POST['footer_email'])) {
+        $footer_email = $_POST['footer_email'];
+    }
+	if (isset($_POST['footer_message']) && !empty($_POST['footer_message'])) {
+        $footer_message = $_POST['footer_message'];
+    }
+	//print_r($footer_name.$footer_email.$footer_message);
+	$mail_content = "Name:" . $footer_name . ", Email:" . $footer_email . ", Message:" . $footer_message;
+    $headers = "From: " . $footer_email;
+	//print_r($mail_content.$headers);
+	mail("riad.cse13.sust@gmail.com", $footer_email, $mail_content, $headers);
+}
+?>
 <footer class="footer">
     <div class="footer-wrapper">
         <div class="container">
@@ -37,35 +59,37 @@
                             </div>
                         </div>
                         <div class="large-msg-box-white-content-area">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                    <p>Leave a message and we'll get back to you.</p>
-                                </div>
+							<form action="#" method="post">
+								<div class="row">
+									<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+										<p>Leave a message and we'll get back to you.</p>
+									</div>
 
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                    <label>Name</label>
-                                    <input class="form-control" type="text" placeholder="Your Name">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                    <label>Email</label>
-                                    <input class="form-control" type="email" placeholder="Your Email">
-                                </div>
-                            </div>
-                            <div class="row form-group">
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                    <label>Message</label>
-                                    <textarea rows="3" class="form-control" placeholder="Your Message"></textarea>
-                                </div>
-                            </div>
-                            <div class="row form-group">
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                    <button class="form-control custom-button" id="quick-msg-send-btn" name="quick-msg-send-btn">Send</button>
-                                </div>
-                            </div>
+								</div>
+								<div class="row">
+									<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+										<label>Name</label>
+										<input class="form-control" type="text" placeholder="Your Name" name="footer_name">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+										<label>Email</label>
+										<input class="form-control" type="text" placeholder="Your Email" name="footer_email">
+									</div>
+								</div>
+								<div class="row form-group">
+									<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+										<label>Message</label>
+										<textarea rows="3" class="form-control" placeholder="Your Message" name="footer_message"></textarea>
+									</div>
+								</div>
+								<div class="row form-group">
+									<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+										<button class="form-control custom-button" id="quick-msg-send-btn" name="quick-msg-send-btn">Send</button>
+									</div>
+								</div>
+							</form>
                         </div>
                     </div>
                 </div>

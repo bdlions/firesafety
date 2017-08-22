@@ -53,9 +53,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="welcomemsg">
-                        <span class="black">Welcome to</span> Fire safety Management Consultancy
-                    </div>
                     <div id="carousel_slider" class="carousel slide slider_border" data-ride="carousel">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
