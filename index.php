@@ -1,6 +1,7 @@
 <script type="text/javascript">
     $(document).ready(function () {
-        $('.carousel').carousel({interval: 7000});
+        //$('.carousel').carousel({interval: 3000});
+        $('#carouselFade').carousel();
     });
 </script>
 <style>
@@ -13,6 +14,9 @@
     .close-msg-box{
         margin-top: 8px!important;  
     }
+
+
+
 </style>
 <?php include './header.php'; ?>
 <body>
@@ -53,33 +57,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div id="carousel_slider" class="carousel slide slider_border" data-ride="carousel">
+                    <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active"> </div>
+                            <div class="item">  </div>
+                        </div>
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
-                            <li data-target="#carousel_slider" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel_slider" data-slide-to="1"></li>
-                            <li data-target="#carousel_slider" data-slide-to="2"></li>
+                            <li data-target="#carouselFade" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselFade" data-slide-to="1"></li>
                         </ol>
-
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner carousel-inner-custom" role="listbox">
-                            <div class="item active">
-                                <img src="images/slide1.jpg" >
-                            </div>
-                            <div class="item">
-                                <img src="images/slide2.jpg" >
-                            </div>
-                            <div class="item">
-                                <img src="images/slide3.jpg" >
-                            </div>
-                        </div>
-
                         <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel_slider" role="button" data-slide="prev">
+                        <a class="left carousel-control" href="#carouselFade" role="button" data-slide="prev">
                             <span class="tp-leftarrow " aria-hidden="true"></span>
                             <span class="sr-only"></span>
                         </a>
-                        <a class="right carousel-control" href="#carousel_slider" role="button" data-slide="next">
+                        <a class="right carousel-control" href="#carouselFade" role="button" data-slide="next">
                             <span class="tp-rightarrow" aria-hidden="true"></span>
                             <span class="sr-only"></span>
                         </a>
@@ -88,27 +81,28 @@
             </div>		
         </div>
         <div class="container">
-            <div class="row home-layout-margin-align">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="welcome-note wow fadeInLeftBig" data-wow-duration="1s">Welcome to <b>"FSMC"</b> Fire safety management consultancy</div>
+            <div class="main-page-content-align">
+                <div class="row home-layout-margin-align">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <div class="welcome-note wow fadeInLeftBig" data-wow-duration="1s">Welcome to <b>"FSMC"</b> Fire safety management consultancy</div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <h4 class="welcome-para text-justify wow fadeInRightBig" data-wow-duration="1s">FSMC  is established by a team of registed and very experienced
+                            fire safety managers from Singapore. We wanted to provide innovative, practical and cost effective
+                            solutions to our coustomer for long term relationship thus ensuring us one of the unique industrial 
+                            service provider in the globe.</h4>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <h4 class="welcome-para text-justify wow fadeInRightBig" data-wow-duration="1s">FSMC  is established by a team of registed and very experienced
-                        fire safety managers from Singapore. We wanted to provide innovative, practical and cost effective
-                        solutions to our coustomer for long term relationship thus ensuring us one of the unique industrial 
-                        service provider in the globe.</h4>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row mission-vision">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
-                    <h3 class="wow fadeInUpBig" data-wow-duration="1s">MISSION</h3>
-                    <p class="text-uppercase mission-text wow fadeInLeftBig" data-wow-duration="1s">EXCEED COUSTOMER EXPECTATION THROUGH PROVIDING HIGEST QUALITY SERVICE AND PROFESSIONALISM</p>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
-                    <h3 class="wow fadeInDownBig" data-wow-duration="1s">VISION</h3>
-                    <p class="text-uppercase vision-text wow fadeInRightBig" data-wow-duration="1s">TO BE ONE OF THE BEST FIRE SAFETY SOLUTION PROVIDER FOR INDUSTRY.</p>
+
+                <div class="row mission-vision">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
+                        <h3 class="wow fadeInUpBig" data-wow-duration="1s">MISSION</h3>
+                        <p class="text-uppercase mission-text wow fadeInLeftBig" data-wow-duration="1s">EXCEED COUSTOMER EXPECTATION THROUGH PROVIDING HIGEST QUALITY SERVICE AND PROFESSIONALISM</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
+                        <h3 class="wow fadeInDownBig" data-wow-duration="1s">VISION</h3>
+                        <p class="text-uppercase vision-text wow fadeInRightBig" data-wow-duration="1s">TO BE ONE OF THE BEST FIRE SAFETY SOLUTION PROVIDER FOR INDUSTRY.</p>
+                    </div>
                 </div>
             </div>
         </div>
