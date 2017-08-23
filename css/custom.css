@@ -22,7 +22,7 @@ html, body {
 
 .wrapper {
     min-height: 100%;
-    margin-bottom: -60px;
+    margin-bottom: 0px;
 }
 .footer,
 .push {
@@ -239,6 +239,7 @@ a:hover{
 }
 .footer-text{
     color: #212121!important;
+    margin-top: 15px;
 }
 
 /*---------------------------------- Company Profile ----------------------------------------*/
