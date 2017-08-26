@@ -84,7 +84,7 @@
             <div class="main-page-content-align">
                 <div class="row home-layout-margin-align">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <div class="welcome-note wow fadeInLeftBig" data-wow-duration="1s">Welcome to <b>"FSMC"</b> Fire safety management consultancy</div>
+                        <div class="welcome-note wow fadeInLeftBig" data-wow-duration="1s">Welcome to <b>"FSMC"</b> Fire Safety Management Consultancy</div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                         <h4 class="welcome-para text-justify wow fadeInRightBig" data-wow-duration="1s">FSMC  is established by a team of registed and very experienced

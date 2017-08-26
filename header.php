@@ -8,8 +8,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="keywords" content="fire safety singapore industry building plant yead bukit batok crescent SCDF MOM WSHO WSHC ECO">
+        <meta name="description" content="Welcome to FSMC Fire safety management consultancy. FSMC is established by a team of registed and very experienced fire safety managers from Singapore.">
+        <meta name="keywords" content="Fire Safety Manger ( FSM ) Safety Officer WSHO Safety Assessor">
 
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
