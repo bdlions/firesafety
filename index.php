@@ -68,6 +68,8 @@
                         <ol class="carousel-indicators">
                             <li data-target="#carouselFade" data-slide-to="0" class="active"></li>
                             <li data-target="#carouselFade" data-slide-to="1"></li>
+                            <li data-target="#carouselFade" data-slide-to="2"></li>
+                            <li data-target="#carouselFade" data-slide-to="3"></li>
                         </ol>
                         <!-- Controls -->
                         <a class="left carousel-control" href="#carouselFade" role="button" data-slide="prev">
