@@ -32,7 +32,7 @@ if (isset($_POST['quick-msg-send-btn'])) {
 </footer>
 <section class="quick-msg-section">
     <div class="row">
-        <div class="col-xs-offset-2 col-xs-11 col-sm-offset-4 col-sm-8 col-md-offset-8 col-md-4 col-lg-offset-9 col-lg-3">
+        <div class="col-xs-offset-1 col-xs-11 col-sm-offset-4 col-sm-8 col-md-offset-8 col-md-4 col-lg-offset-9 col-lg-3">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div id="small-msg-box"> 

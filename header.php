@@ -9,7 +9,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Welcome to FSMC Fire safety management consultancy. FSMC is established by a team of registed and very experienced fire safety managers from Singapore.">
-        <meta name="keywords" content="Fire Safety Manger ( FSM ) Safety Officer WSHO Safety Assessor">
+        <meta name="keywords" content="Fire Safety Manger(FSM), Safety Officer, WSHO, Safety Assessor">
 
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">

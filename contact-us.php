@@ -109,7 +109,7 @@ if (isset($_POST['send_message'])) {
                                 <?php } ?>
                             </div>
                         </div>
-                        <div class="row form-group margin-top-50px">
+                        <div class="row form-group">
                             <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
                                 <label class="wow fadeInLeftBig fade-timer-1st">Your Name (required)</label>
                             </div>

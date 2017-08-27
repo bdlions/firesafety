@@ -144,11 +144,9 @@ a:hover{
 }
 .nav-custom li{
     background: #3f51b5;
-    border-right: 2px solid #fff;
 }
 .nav-custom .active{
     background: #E67E22;
-    border-right: 2px solid #fff;
 }
 .nav-custom li a{
     color: #fff!important;
@@ -224,6 +222,7 @@ a:hover{
 }
 .service-content {
     margin-left: 60px;
+    font-size: 24px;
 }
 .image-50x50{
     height: 50px;
@@ -266,7 +265,7 @@ a:hover{
         color: #fff!important;
     }
     .header-navbar-custom .navbar-nav > li > a{
-        color: #333!important;
+        color: #fff!important;
     }
     .header-navbar-custom .navbar-nav > li > a:focus, .header-navbar-custom .navbar-nav > li > a:hover{
         color: #fff!important;
@@ -287,7 +286,7 @@ a:hover{
         z-index: 99;
     }
     .header-navbar-custom{
-        margin-top: 0!important;
+        margin-top: -50px!important;
         margin-bottom: 0!important;
     }
 }
@@ -328,6 +327,12 @@ a:hover{
         margin-top: 50px!important;
         margin-bottom: 50px!important;
     }
+    .nav-custom li{
+        border-right: 2px solid #fff;
+    }
+    .nav-custom .active{
+        border-right: 2px solid #fff;
+    }
 }
 @media (min-width : 992px) and (max-width : 1199px) {
     .home-layout-bg{
@@ -363,7 +368,12 @@ a:hover{
         margin-top: 50px!important;
         margin-bottom: 50px!important;
     }
-
+    .nav-custom li{
+        border-right: 2px solid #fff;
+    }
+    .nav-custom .active{
+        border-right: 2px solid #fff;
+    }
 }
 @media (min-width : 1200px) {
     .home-layout-bg{
@@ -398,6 +408,12 @@ a:hover{
     .header-navbar-custom{
         margin-top: 50px!important;
         margin-bottom: 50px!important;
+    }
+    .nav-custom li{
+        border-right: 2px solid #fff;
+    }
+    .nav-custom .active{
+        border-right: 2px solid #fff;
     }
 }
 .fade-timer-1st{
@@ -458,6 +474,7 @@ a:hover{
 /*-------------- quick message ---------------*/
 .quick-msg-section{
     z-index: 999999;
+    overflow: hidden;
 }
 #small-msg-box{
     font-size: 15px;
@@ -465,10 +482,11 @@ a:hover{
     margin-right: 10px;
     position: fixed; 
     bottom: 0; 
-    right: 15px; 
+    right: 0px; 
     background-color: #E67E22; 
     padding: 0px 32px; 
     cursor: pointer; 
+    z-index: 100;
 }
 #large-msg-box{
     font-size: 15px;
@@ -477,6 +495,7 @@ a:hover{
     right: 15px; 
     background-color: #E67E22; 
     display: none;
+    z-index: 100;
 }
 
 .large-msg-box-header{
@@ -625,7 +644,17 @@ a:hover{
     background-size:  100% 100%;
     background-repeat: no-repeat;
 }
+.item:nth-child(3) {
+    background: url(../images/slide3.jpg);
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+}
+.item:nth-child(4) {
+    background: url(../images/slide4.jpg);
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+}
 
 .main-page-content-align{
-   
+
 }
