@@ -36,7 +36,7 @@ if (isset($_POST['send_message'])) {
     $mail_content = "Name:" . $name . ", Contact No:" . $contact_no . ", Compnay:" . $company_name . ", Email:" . $email . ", Message:" . $message;
     $headers = "From: " . $email;
     if (empty($error_message)) {
-        if (mail("riad.cse13.sust@gmail.com", $email, $mail_content, $headers)) {
+        if (mail("hr@fsmcsg.com", $email, $mail_content, $headers)) {
             $success_message = "Your messaage is sent successfully.";
         } else {
             $error_message = "Internal server error. Please try again later.";

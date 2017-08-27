@@ -16,7 +16,7 @@ if (isset($_POST['quick-msg-send-btn'])) {
     $mail_content = "Name:" . $footer_name . ", Email:" . $footer_email . ", Message:" . $footer_message;
     $headers = "From: " . $footer_email;
     //print_r($mail_content.$headers);
-    mail("riad.cse13.sust@gmail.com", $footer_email, $mail_content, $headers);
+    mail("sales@fsmcsg.com", $footer_email, $mail_content, $headers);
 }
 ?>
 <footer class="footer">
