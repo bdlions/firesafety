@@ -33,11 +33,11 @@ if (isset($_POST['send_message'])) {
         $message = $_POST['message'];
     }
     //print_r($name.$email.$contact_no.$company_name.$message);
-    $mail_content = "Name:" . $name . ", Contact No:" . $contact_no . ", Compnay:" . $company_name . ", Email:" . $email . ", Message:" . $message;
+    $mail_content = "Name:" . $name . ",\r\nContact No:" . $contact_no . ",\r\nCompnay:" . $company_name . ",\r\nEmail:" . $email . ",\r\nMessage:" . $message;
     $headers = "From: " . $email;
     if (empty($error_message)) {
         if (mail("hr@fsmcsg.com", $email, $mail_content, $headers)) {
-            $success_message = "Your messaage is sent successfully.";
+		    $success_message = "Your messaage is sent successfully.";
         } else {
             $error_message = "Internal server error. Please try again later.";
         }
