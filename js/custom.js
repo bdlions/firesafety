@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $('#carouselFade').carousel({interval: 3000});
 //  wow js animation
     wow = new WOW(
             {
