@@ -39,10 +39,10 @@
                 <div class="col-md-12">
                     <div id="carouselFade" class="carousel slide carousel-fade">
                         <div class="carousel-inner">
-                            <div class="item active"><img src="images/slide1.jpg" class="img-responsive carousel-img"></div>
-                            <div class="item"><img src="images/slide2.jpg" class="img-responsive carousel-img"></div>
-                            <div class="item"><img src="images/slide3.jpg" class="img-responsive carousel-img"></div>
-                            <div class="item"><img src="images/slide4.jpg" class="img-responsive carousel-img"></div>
+                            <div class="item active"><img alt="Fire Safety Manager" src="images/slide1.jpg" class="img-responsive carousel-img"></div>
+                            <div class="item"><img alt="Fire Safety Manager" src="images/slide2.jpg" class="img-responsive carousel-img"></div>
+                            <div class="item"><img alt="Fire Safety Manager" src="images/slide3.jpg" class="img-responsive carousel-img"></div>
+                            <div class="item"><img alt="Fire Safety Manager" src="images/slide4.jpg" class="img-responsive carousel-img"></div>
                         </div>
 
                         <!--Indicators--> 
