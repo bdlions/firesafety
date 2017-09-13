@@ -69,7 +69,7 @@
             <div class="main-page-content-align">
                 <div class="row home-layout-margin-align">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <h1 class="welcome-note wow fadeInLeftBig" data-wow-duration="1s">Welcome to <b>"FSMC"</b> Fire Safety Management Consultancy</h1>
+                        <h1 class="welcome-note wow fadeInLeftBig" data-wow-duration="1s">Welcome to <strong>"FSMC"</strong> Fire Safety Management Consultancy</h1>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                         <p class="welcome-para text-justify wow fadeInRightBig" data-wow-duration="1s">
