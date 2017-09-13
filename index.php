@@ -39,10 +39,10 @@
                 <div class="col-md-12">
                     <div id="carouselFade" class="carousel slide carousel-fade">
                         <div class="carousel-inner">
-                            <div class="item active"><img alt="Fire Safety Manager" src="images/slide1.jpg" class="img-responsive carousel-img"></div>
-                            <div class="item"><img alt="Fire Safety Manager" src="images/slide2.jpg" class="img-responsive carousel-img"></div>
-                            <div class="item"><img alt="Fire Safety Manager" src="images/slide3.jpg" class="img-responsive carousel-img"></div>
-                            <div class="item"><img alt="Fire Safety Manager" src="images/slide4.jpg" class="img-responsive carousel-img"></div>
+                            <div class="item active"><img src="images/slide1.jpg" class="img-responsive carousel-img" alt="Slider Image One" ></div>
+                            <div class="item"><img src="images/slide2.jpg" class="img-responsive carousel-img" alt="Slider Image Two"></div>
+                            <div class="item"><img src="images/slide3.jpg" class="img-responsive carousel-img" alt="Slider Image Three"></div>
+                            <div class="item"><img src="images/slide4.jpg" class="img-responsive carousel-img" alt="Slider Image Four"></div>
                         </div>
 
                         <!--Indicators--> 
@@ -69,23 +69,24 @@
             <div class="main-page-content-align">
                 <div class="row home-layout-margin-align">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <div class="welcome-note wow fadeInLeftBig" data-wow-duration="1s">Welcome to <b>"FSMC"</b> Fire Safety Management Consultancy</div>
+                        <h1 class="welcome-note wow fadeInLeftBig" data-wow-duration="1s">Welcome to <b>"FSMC"</b> Fire Safety Management Consultancy</h1>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <h4 class="welcome-para text-justify wow fadeInRightBig" data-wow-duration="1s">FSMC  is established by a team of registed and very experienced
+                        <p class="welcome-para text-justify wow fadeInRightBig" data-wow-duration="1s">
+                            FSMC  is established by a team of registed and very experienced
                             fire safety managers from Singapore. We wanted to provide innovative, practical and cost effective
                             solutions to our coustomer for long term relationship thus ensuring us one of the unique industrial 
-                            service provider in the globe.</h4>
+                            service provider in the globe.</p>
                     </div>
                 </div>
 
                 <div class="row mission-vision">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
-                        <h3 class="wow fadeInUpBig" data-wow-duration="1s">MISSION</h3>
+                        <p class="mission-title wow fadeInUpBig" data-wow-duration="1s">MISSION</p>
                         <p class="text-uppercase mission-text wow fadeInLeftBig" data-wow-duration="1s">EXCEED COUSTOMER EXPECTATION THROUGH PROVIDING HIGEST QUALITY SERVICE AND PROFESSIONALISM</p>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
-                        <h3 class="wow fadeInDownBig" data-wow-duration="1s">VISION</h3>
+                        <p class="vision-title wow fadeInDownBig" data-wow-duration="1s">VISION</p>
                         <p class="text-uppercase vision-text wow fadeInRightBig" data-wow-duration="1s">TO BE ONE OF THE BEST FIRE SAFETY SOLUTION PROVIDER FOR INDUSTRY.</p>
                     </div>
                 </div>

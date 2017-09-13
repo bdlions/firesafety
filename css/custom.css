@@ -219,6 +219,12 @@ a:hover{
 .welcome-note,.welcome-para{
     color: #212121;
 }
+.mission-title,.vision-title{
+    font-size: 24px;
+    line-height: 150%;
+    margin-top: 10px!important;  
+    margin-bottom: 10px!important;  
+}
 .mission-text, .vision-text{
     font-size: 16px;
     line-height: 180%;

@@ -4,26 +4,31 @@
         <!--[if lt IE 8]>
            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
        <![endif]-->
-        <title>Fire Safety Manager</title>
-		<link rel="icon" type="image/png" href="images/logo.png">
+        <title>Fire Safety Management Consultancy Very Experienced from Singapore</title>
+		
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Welcome to FSMC Fire safety management consultancy. FSMC is established by a team of registed and very experienced fire safety managers from Singapore.">
-        <meta name="keywords" content="Fire Safety Manager">
-		
-		<meta name="og:title" content="Fire Safety Manager">
-		<meta name="og:type" content="website">
-		<meta name="og:url" content="http://fsmcsg.com">
-		<meta name="og:image" content="http://fsmcsg.com/images/logo.png">
+        <meta name="description" content="Welcome to FSMC - Fire safety management consultancy. FSMC is established by a team of registed and very experienced fire safety managers from Singapore.">
+        <meta name="keywords" content="fire,safety,fsmc,message,leave message,customer,safety managers,available positions,best fire,fire safety managers,available positions links,best fire safety,company profile services,contact us welcome">
+	<meta name="author" content="Nazmul Hasan, Alamgir Kabir, A.K.M.Nazmul Islam">
+        
+        <meta property="og:site_name" content="fsmcsg">
+	<meta name="og:title" content="Fire Safety Management Consultancy Very Experienced from Singapore">
+	<meta name="og:type" content="website">
+	<meta name="og:url" content="http://fsmcsg.com">
+        <meta property="og:locale" content="en">
+        <meta name="robots" content="noodp,noydir">
+	<meta name="og:image" content="http://fsmcsg.com/images/logo.png">
+        
+        <link rel="icon" type="image/png" href="images/logo.png" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/animate.css" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/custom.css" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/custom.css">
-
-        <script src="js/jquery-1.12.0.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/custom.js"></script>
-        <script src="js/wow.min.js"></script>
+        <script type="text/javascript" src="js/jquery-1.12.0.min.js" async="" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js" async="" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/custom.js" async="" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/wow.min.js" async="" crossorigin="anonymous"></script>
     </head>
