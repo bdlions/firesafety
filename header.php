@@ -19,7 +19,7 @@
 	<meta name="og:url" content="http://www.fsmcsg.com/">
         <meta property="og:locale" content="en">
         <meta name="robots" content="noodp,noydir">
-	<meta name="og:image" content="http://fsmcsg.com/images/logo.png">
+	<meta name="og:image" content="http://www.fsmcsg.com/images/logo.png">
         
         <link rel="icon" type="image/png" href="images/logo.png" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" crossorigin="anonymous">
