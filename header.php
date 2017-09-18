@@ -27,8 +27,8 @@
         <link rel="stylesheet" type="text/css" href="css/animate.css" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/custom.css" crossorigin="anonymous">
 
-        <script type="text/javascript" src="js/jquery-1.12.0.min.js" async="" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js" async="" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="js/custom.js" async="" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="js/wow.min.js" async="" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/jquery-1.12.0.min.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/custom.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/wow.min.js" crossorigin="anonymous"></script>
     </head>
