@@ -1,5 +1,11 @@
 <?php $title = "Fire Safety Manager"; ?>
 <?php include './header.php'; ?>
+<script>
+    $(document).ready(function () {
+        $("#carouselFade").carousel({interval: 3000});
+    });
+
+</script>
 <body>
     <div class="wrapper">
         <header id="header">

@@ -28,15 +28,15 @@
         <link rel="icon" type="image/png" href="images/logo.png" crossorigin="anonymous">
 
         <!--CSS starts-->
-        <link rel="stylesheet" type="text/css" href="css/animate.min.css" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/animate.min.css" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/custom.min.css" crossorigin="anonymous">
         <!--CSS ends-->
 
         <!--JS starts-->
         <script type="text/javascript" src="js/jquery-1.12.0.min.js" crossorigin="anonymous"></script>
-        <script async type="text/javascript" src="js/bootstrap.min.js" crossorigin="anonymous"></script>
-        <script async type="text/javascript" src="js/wow.min.js" crossorigin="anonymous"></script>
-        <script async type="text/javascript" src="js/custom.min.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/custom.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/wow.min.js" crossorigin="anonymous"></script>
         <!--JS ends-->
     </head>
