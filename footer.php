@@ -52,7 +52,7 @@ if (isset($_POST['quick-msg-send-btn'])) {
                                 </div>
                                 <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2">
                                     <div id="close" class="close-msg-box">
-                                        <i class="fa fa-times" aria-hidden="true"></i>
+                                        <img src="images/closeButton.png" alt="close"/>
                                     </div>  
                                 </div>  
                             </div>
@@ -98,7 +98,7 @@ if (isset($_POST['quick-msg-send-btn'])) {
 </section>
 </body>
 </html>
-<script>
+<script async type="text/javascript">
     $(document).ready(function () {
         $("#small-msg-box").click(function () {
             $("#small-msg-box").hide();
