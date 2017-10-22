@@ -9,8 +9,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Welcome to FSMC - Fire safety management consultancy. FSMC is established by a potential team of registed and very experienced fire safety managers from Singapore.">
-        <meta name="keywords" content="Fire,Safety,fsmc,Message,Leave message,Customer,Provider,Singapore,Welcome,Fire,Safety,Management,Consultancy,Safety managers,Available positions,Best fire,Fire safety managers,Available positions links,Best fire safety,Company profile services,contact us welcome">
+        <meta name="description" content="Fire safety management consultancy is established by a potential team of registed and very experienced fire safety managers from Singapore.">
         <meta name="author" content="Nazmul Hasan, Alamgir Kabir, A.K.M.Nazmul Islam">
 
         <meta property="og:site_name" content="fsmcsg">
