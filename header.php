@@ -31,9 +31,9 @@
         <!--CSS ends-->
 
         <!--JS starts-->
-        <script type="text/javascript" src="js/jquery-1.12.0.min.js" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="js/wow.min.js" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="js/custom.min.js" crossorigin="anonymous"></script>
+        <script async type="text/javascript" src="js/jquery-1.12.0.min.js" crossorigin="anonymous"></script>
+        <script async type="text/javascript" src="js/wow.min.js" crossorigin="anonymous"></script>
+        <script async type="text/javascript" src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <script async type="text/javascript" src="js/custom.min.js" crossorigin="anonymous"></script>
         <!--JS ends-->
     </head>
