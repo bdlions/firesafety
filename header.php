@@ -28,6 +28,7 @@
         <link rel="icon" type="image/png" href="images/logo.png" crossorigin="anonymous">
 
         <!--CSS starts-->
+        <link rel="stylesheet" type="text/css" href="css/animate.min.css" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/custom.min.css" crossorigin="anonymous">
         <!--CSS ends-->
