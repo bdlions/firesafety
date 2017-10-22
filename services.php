@@ -1,3 +1,4 @@
+<?php echo $title = "Services"; ?>
 <?php include './header.php'; ?>
 <body>
     <div class="wrapper">

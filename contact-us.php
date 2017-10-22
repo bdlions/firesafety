@@ -1,3 +1,4 @@
+<?php $title = "Contact Us"; ?>
 <?php
 if (isset($_POST['send_message'])) {
     $error_message = "";

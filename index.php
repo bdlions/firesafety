@@ -1,3 +1,4 @@
+<?php $title = "Fire Safety Manager"; ?>
 <?php include './header.php'; ?>
 <body>
     <div class="wrapper">

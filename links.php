@@ -1,3 +1,4 @@
+<?php echo $title = "Links"; ?>
 <?php include './header.php'; ?>
 <body>
     <div class="wrapper">
