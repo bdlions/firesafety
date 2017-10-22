@@ -82,12 +82,12 @@
 
                 <div class="row mission-vision">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
-                        <p class="mission-title wow fadeInUpBig" data-wow-duration="1s">MISSION</p>
-                        <p class="text-uppercase mission-text wow fadeInLeftBig" data-wow-duration="1s">EXCEED COUSTOMER EXPECTATION THROUGH PROVIDING HIGEST QUALITY SERVICE AND PROFESSIONALISM</p>
+                        <p class="mission-title wow fadeInLeftBig" data-wow-duration="1s">MISSION</p>
+                        <p class="text-uppercase mission-text wow fadeInRightBig" data-wow-duration="1s">EXCEED COUSTOMER EXPECTATION THROUGH PROVIDING HIGEST QUALITY SERVICE AND PROFESSIONALISM</p>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
-                        <p class="vision-title wow fadeInDownBig" data-wow-duration="1s">VISION</p>
-                        <p class="text-uppercase vision-text wow fadeInRightBig" data-wow-duration="1s">TO BE ONE OF THE BEST FIRE SAFETY SOLUTION PROVIDER FOR INDUSTRY.</p>
+                        <p class="vision-title wow fadeInRightBig" data-wow-duration="1s">VISION</p>
+                        <p class="text-uppercase vision-text wow fadeInLeftBig" data-wow-duration="1s">TO BE ONE OF THE BEST FIRE SAFETY SOLUTION PROVIDER FOR INDUSTRY.</p>
                     </div>
                 </div>
             </div>
