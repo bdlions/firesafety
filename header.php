@@ -11,15 +11,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Fire safety management consultancy is established by a potential team of registed and very experienced fire safety managers from Singapore.">
         <meta name="author" content="Nazmul Hasan, Alamgir Kabir, A.K.M.Nazmul Islam">
+        
 
+        <!-- Meta tags for facebook -->
+        <meta property="og:description" content="Fire safety management consultancy is established by a potential team of registed and very experienced fire safety managers from Singapore.">
         <meta property="og:site_name" content="fsmcsg">
-        <meta name="og:title" content="Fire Safety Manager">
-        <meta name="og:type" content="website">
-        <meta name="og:url" content="http://www.fsmcsg.com/">
+        <meta property="og:title" content="Fire Safety Manager">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="http://www.fsmcsg.com/">
         <meta property="og:locale" content="en">
-        <meta name="robots" content="noodp,noydir">
-        <meta name="og:image" content="http://www.fsmcsg.com/images/logo.png">
+        <meta property="og:image" content="http://www.fsmcsg.com/images/slide1.jpg">
         <!--Meta ends-->
+        
+        <link rel="alternate" href="http://www.fsmcsg.com" hreflang="en-sg" />
         
         <link rel="icon" type="image/png" href="images/logo.png" crossorigin="anonymous">
 
