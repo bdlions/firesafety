@@ -67,19 +67,19 @@ if (isset($_POST['quick-msg-send-btn'])) {
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                        <label>Name</label>
+                                        <label for="name" title="Name">Name</label>
                                         <input class="form-control" type="text" placeholder="Your Name" name="footer_name">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                        <label>Email</label>
+                                        <label for="email" title="Email">Email</label>
                                         <input class="form-control" type="text" placeholder="Your Email" name="footer_email">
                                     </div>
                                 </div>
                                 <div class="row form-group">
                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                        <label>Message</label>
+                                        <label for="message" title="Message">Message</label>
                                         <textarea rows="3" class="form-control" placeholder="Your Message" name="footer_message"></textarea>
                                     </div>
                                 </div>

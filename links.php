@@ -40,6 +40,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </header>
         <div class="container">
+            <h1 class="h1-height-reduce">&nbsp;</h1>
             <div class="row form-group margin-top-50px link">
                 <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 wow fadeInLeftBig fade-timer-1st form-group">
                     <a href="http://www.siso.org.sg/" target="_blank"><img src="images/logo--siso.jpg" class="img-responsive" alt="logo siso"></a>
