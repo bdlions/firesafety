@@ -97,13 +97,13 @@ if (isset($_POST['quick-msg-send-btn'])) {
     </div>
 </section>
 <!--JS starts-->
-<script type="text/javascript">
-    $(document).ready(function (){$("#small-msg-box").click(function (){$("#small-msg-box").hide();$("#large-msg-box").show();});$("#close").click(function (){$("#large-msg-box").hide();$("#small-msg-box").show();});});
-</script>
-<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
-<script type="text/javascript" src="js/custom.js"></script>
+<script src="js/jquery-1.12.0.min.js"></script>
+<script src="js/custom.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/wow.min.js"></script>
+<script>
+    $(document).ready(function(){$("#small-msg-box").click(function (){$("#small-msg-box").hide();$("#large-msg-box").show();});$("#close").click(function (){$("#large-msg-box").hide();$("#small-msg-box").show();});});
+</script>
 <!--JS ends-->
 
 </body>

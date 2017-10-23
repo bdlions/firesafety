@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <!--[if lt IE 8]>
@@ -11,7 +11,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Fire safety management consultancy is established by a potential team of registed and very experienced fire safety managers from Singapore.">
         <meta name="author" content="Nazmul Hasan, Alamgir Kabir, A.K.M.Nazmul Islam">
-
 
         <!-- Meta tags for facebook -->
         <meta property="og:description" content="Fire safety management consultancy is established by a potential team of registed and very experienced fire safety managers from Singapore.">
