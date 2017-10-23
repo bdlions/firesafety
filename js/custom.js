@@ -1,13 +1,1 @@
-$(document).ready(function () {
-//  wow js animation
-    wow = new WOW(
-            {
-                boxClass: 'wow', // default
-                animateClass: 'animated', // default
-                offset: 0, // default
-                mobile: false, // default
-                live: true        // default
-            }
-    );
-    wow.init();
-});
+$(document).ready(function (){wow=new WOW({boxClass: 'wow',animateClass: 'animated',offset: 0,mobile: false,live: true});wow.init();});

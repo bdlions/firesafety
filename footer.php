@@ -15,7 +15,7 @@ if (isset($_POST['quick-msg-send-btn'])) {
     //print_r($footer_name.$footer_email.$footer_message);
     $mail_content = "Name:" . $footer_name . ",\r\nEmail:" . $footer_email . ",\r\nMessage:" . $footer_message;
     $headers = "From: " . $footer_email;
-	//print_r($mail_content.$headers);
+    //print_r($mail_content.$headers);
     mail("sales@fsmcsg.com", $footer_email, $mail_content, $headers);
 }
 ?>
@@ -98,7 +98,13 @@ if (isset($_POST['quick-msg-send-btn'])) {
 </section>
 </body>
 </html>
-<script async type="text/javascript">
+<!--JS starts-->
+<script type="text/javascript" src="js/jquery-1.12.0.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/wow.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/custom.js" crossorigin="anonymous"></script>
+<!--JS ends-->
+<script type="text/javascript" crossorigin="anonymous">
     $(document).ready(function () {
         $("#small-msg-box").click(function () {
             $("#small-msg-box").hide();

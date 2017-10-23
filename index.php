@@ -1,16 +1,10 @@
 <?php $title = "Fire Safety Manager"; ?>
 <?php include './header.php'; ?>
-<script>
-    $(document).ready(function () {
-        $("#carouselFade").carousel({interval: 3000});
-    });
-
-</script>
 <body>
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTVBVRZ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTVBVRZ"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class="wrapper">
         <header id="header">
             <div class="container">
@@ -106,3 +100,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="push"></div>
     </div>
     <?php include './footer.php'; ?>
+    <script type="text/javascript" crossorigin="anonymous">
+        $(document).ready(function () {
+            $("#carouselFade").carousel({interval: 3000});
+        });
+
+    </script>
