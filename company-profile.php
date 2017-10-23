@@ -1,4 +1,4 @@
-<?php echo $title = "Compnay Profile"; ?>
+<?php $title = "Compnay Profile"; ?>
 <?php
 if (isset($_POST['send_comment'])) {
     $name = "";

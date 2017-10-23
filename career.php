@@ -1,4 +1,4 @@
-<?php echo $title = "Available Positions"; ?>
+<?php $title = "Available Positions"; ?>
 <?php include './header.php'; ?>
 <body>
     <div class="wrapper">
