@@ -85,98 +85,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container">
             <div class="row margin-top-bottom-25px">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h4 class="wow fadeInLeftBig" data-wow-duration="1s">FSMC is a registered company in Singapore  as a industry fire safety solution provider. FSMC's 
+                    <h1 class="font-size-24 wow fadeInLeftBig" data-wow-duration="1s">FSMC is a registered company in Singapore  as a industry fire safety solution provider. FSMC's 
                         aim is to provide very innovative and cost effective solutions to the industry building/plant/yard
                         owner via its strong engineering background. FSMC is established to provide quality and professional
                         fire safe managers in the industry to prevent any major fire incident in singapore. We will strive
-                        for continious improvement on the services and the business we do care about.  </h4>
+                        for continious improvement on the services and the business we do care about.  </h1>
                 </div>
             </div>
-            <!--                <div class="row margin-top-bottom-25px">
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                    <h4 class="wow fadeInUp" data-wow-duration="1s">For further enquiries or after-sales service, please fill out the form and we will get back to you as soon as possible.  </h4>
-                                </div>
-                            </div>
-                            <div class="row margin-top-20px">
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                    <h4 class="wow fadeInDown" data-wow-duration="1s">Address/Contact Info :  </h4>
-                                </div>
-                            </div>
-                            <div class="row margin-top-10px">
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 wow fadeInUp" data-wow-duration="1s">
-                                    <h5>CONTACT PERSONS</h5>
-                                    Mr. S. Chowdhory / Mr. SK <br>
-                                    Email: sales@fsmcsg.com <br>
-                                    HP: +65 9229 9454 / +65 8578 6896 <br><br>
-            
-                                    General inquiries <br>
-                                    Email : sales@fsmcsg.com
-            
-                                </div>
-                            </div>
-                            <form action="company-profile.php" method="post">
-                                <div class="row form-group margin-top-50px">
-                                    <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
-                                        <label class="wow fadeInLeftBig fade-timer-1st">Name</label>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
-                                        <input type="text" class="form-control wow fadeInRightBig fade-timer-1st" name="name">
-                                    </div>
-                                </div>
-                                <div class="row form-group">
-                                    <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
-                                        <label class="wow fadeInLeftBig fade-timer-2nd">Contact No.</label>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
-                                        <input type="text" class="form-control wow fadeInRightBig fade-timer-2nd" name="contact_no">
-                                    </div>
-                                </div>
-                                <div class="row form-group">
-                                    <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
-                                        <label class="wow fadeInLeftBig fade-timer-3rd" >Company</label>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
-                                        <input type="text" class="form-control wow fadeInRightBig fade-timer-3rd" name="company">
-                                    </div>
-                                </div>
-                                <div class="row form-group">
-                                    <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
-                                        <label class="wow fadeInLeftBig fade-timer-4th">Designation</label>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
-                                        <input type="text" class="form-control wow fadeInRightBig fade-timer-4th" name="designation">
-                                    </div>
-                                </div>
-                                <div class="row form-group">
-                                    <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
-                                        <label class="wow fadeInLeftBig fade-timer-5th">Email</label>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
-                                        <input type="text" class="form-control wow fadeInRightBig fade-timer-5th" name="email">
-                                    </div>
-                                </div>
-                                <div class="row form-group">
-                                    <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
-                                        <label  class="wow fadeInLeftBig fade-timer-6th">Subject</label>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
-                                        <input type="text" class="form-control wow fadeInRightBig fade-timer-6th" name="subject">
-                                    </div>
-                                </div>
-                                <div class="row form-group">
-                                    <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
-                                        <label class="wow fadeInLeftBig fade-timer-7th">Comments</label>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
-                                        <textarea rows="5" class="form-control wow fadeInRightBig fade-timer-7th" name="comment"></textarea>
-                                    </div>
-                                </div>
-                                <div class="row form-group">
-                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                        <button name="send_comment" type="submit" class="custom-button pull-right wow fadeInRightBig fade-timer-8th">Submit</button>
-                                    </div>
-                                </div>
-                            </form>-->
         </div>
         <div class="push"></div>
     </div>

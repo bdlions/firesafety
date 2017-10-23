@@ -49,7 +49,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container">
             <div class="row margin-top-bottom-50px">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h3 class="wow fadeInDownBig">Do you interested to join us as a:</h3>
+                    <h1 class="font-size-24 wow fadeInDownBig">Do you interested to join us as a:</h1>
                     <h3 class="wow fadeInRightBig"> Part time/Full time SCDF Registered Fire Safety Manager</h3>               
                     <h3 class="wow fadeInLeftBig"> Registered Workplace Safety and Health (WSHO) </h3>
                     <h3 class="wow fadeInLeftBig">  Registered Environmental Control Officer(ECO) </h3>

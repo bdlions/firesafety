@@ -42,28 +42,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container">
             <div class="row form-group margin-top-50px link">
                 <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 wow fadeInLeftBig fade-timer-1st form-group">
-                    <a href="http://www.siso.org.sg/" target="_blank"><img src="images/logo--siso.jpg" class="img-responsive"></a>
+                    <a href="http://www.siso.org.sg/" target="_blank"><img src="images/logo--siso.jpg" class="img-responsive" alt="logo siso"></a>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 wow fadeInLeftBig fade-timer-2nd form-group">
-                    <a href="http://www.nscs.gov.sg/public/home.aspx" target="_blank"><img src="images/logo--nscs.jpg" class="img-responsive"></a>
+                    <a href="http://www.nscs.gov.sg/public/home.aspx" target="_blank"><img src="images/logo--nscs.jpg" class="img-responsive" alt="logo nscs"></a>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 wow fadeInLeftBig fade-timer-3rd form-group">
-                    <a href="http://www.scal.com.sg/" target="_blank"><img src="images/logo--sco.jpg" class="img-responsive"></a>
+                    <a href="http://www.scal.com.sg/" target="_blank"><img src="images/logo--sco.jpg" class="img-responsive" alt="logo sco"></a>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 wow fadeInLeftBig fade-timer-4th form-group">
-                    <a href="http://www.nea.gov.sg/" target="_blank"><img src="images/logo--nea.jpg" class="img-responsive"></a>
+                    <a href="http://www.nea.gov.sg/" target="_blank"><img src="images/logo--nea.jpg" class="img-responsive" alt="logo nea"></a>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 wow fadeInRightBig fade-timer-5th form-group">
-                    <a href="http://www.mom.gov.sg/" target="_blank"><img src="images/logo--mom.jpg" class="img-responsive"></a>
+                    <a href="http://www.mom.gov.sg/" target="_blank"><img src="images/logo--mom.jpg" class="img-responsive" alt="logo mom"></a>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 wow fadeInRightBig fade-timer-6th form-group">
-                    <a href="http://www.scdf.gov.sg/content/scdf_internet/en.html" target="_blank"><img src="images/logo--scdf.jpg" class="img-responsive"></a>
+                    <a href="http://www.scdf.gov.sg/content/scdf_internet/en.html" target="_blank"><img src="images/logo--scdf.jpg" class="img-responsive" alt="logo scdf"></a>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 wow fadeInRightBig fade-timer-7th form-group">
-                    <a href="http://www.nfec.org.sg/" target="_blank"><img src="images/logo--nfec.jpg" class="img-responsive"></a>
+                    <a href="http://www.nfec.org.sg/" target="_blank"><img src="images/logo--nfec.jpg" class="img-responsive" alt="logo nfec"></a>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 wow fadeInRightBig fade-timer-8th form-group">
-                    <a href="http://www.wshc.sg/" target="_blank"><img src="images/logo--wsh.jpg" class="img-responsive"></a>
+                    <a href="http://www.wshc.sg/" target="_blank"><img src="images/logo--wsh.jpg" class="img-responsive"  alt="logo wsh"></a>
                 </div>
             </div>
         </div>

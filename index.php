@@ -99,10 +99,9 @@
         </div>
         <div class="push"></div>
     </div>
-    <?php include './footer.php'; ?>
-    <script type="text/javascript" crossorigin="anonymous">
-        $(document).ready(function () {
-            $("#carouselFade").carousel({interval: 3000});
-        });
+    <script type="text/javascript">
+       $(document).ready(function (){$("#carouselFade").carousel({interval: 3000});});
 
     </script>
+    <?php include './footer.php'; ?>
+    
