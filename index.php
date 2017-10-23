@@ -11,7 +11,7 @@
                 <div class="header-bg">
                     <div class="row margin-top-bottom-10px">
                         <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
-                            <a href="index.php"><img class="img-responsive margin-top-bottom-10px" src="images/logo.png" alt="Logo"></a>
+                            <a href="index.php" class="margin-top-bottom-10px"><img class="img-responsive" src="images/logo.png" alt="Logo"></a>
                         </div>
                         <div class="col-xs-12 col-sm-9 col-md-8 col-lg-8">
                             <nav class="navbar navbar-default header-navbar-custom margin-top-bottom-50px">
@@ -44,10 +44,10 @@
                 <div class="col-md-12">
                     <div id="carouselFade" class="carousel slide carousel-fade">
                         <div class="carousel-inner">
-                            <div class="item active"><img src="images/slide1.jpg" class="img-responsive carousel-img" alt="Slider Image One" ></div>
-                            <div class="item"><img src="images/slide2.jpg" class="img-responsive carousel-img" alt="Slider Image Two"></div>
-                            <div class="item"><img src="images/slide3.jpg" class="img-responsive carousel-img" alt="Slider Image Three"></div>
-                            <div class="item"><img src="images/slide4.jpg" class="img-responsive carousel-img" alt="Slider Image Four"></div>
+                            <div class="item active"><img src="images/slide1.jpg" class="img-responsive" alt="Slider Image One" ></div>
+                            <div class="item"><img src="images/slide2.jpg" class="img-responsive" alt="Slider Image Two"></div>
+                            <div class="item"><img src="images/slide3.jpg" class="img-responsive" alt="Slider Image Three"></div>
+                            <div class="item"><img src="images/slide4.jpg" class="img-responsive" alt="Slider Image Four"></div>
                         </div>
 
                         <!--Indicators--> 
@@ -87,11 +87,11 @@
 
                 <div class="row mission-vision">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
-                        <p class="mission-title wow fadeInLeftBig" data-wow-duration="1s">MISSION</p>
+                        <h2 class="mission-title wow fadeInLeftBig" data-wow-duration="1s">MISSION</h2>
                         <p class="text-uppercase mission-text wow fadeInRightBig" data-wow-duration="1s">EXCEED COUSTOMER EXPECTATION THROUGH PROVIDING HIGEST QUALITY SERVICE AND PROFESSIONALISM</p>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
-                        <p class="vision-title wow fadeInRightBig" data-wow-duration="1s">VISION</p>
+                        <h2 class="vision-title wow fadeInRightBig" data-wow-duration="1s">VISION</h2>
                         <p class="text-uppercase vision-text wow fadeInLeftBig" data-wow-duration="1s">TO BE ONE OF THE BEST FIRE SAFETY SOLUTION PROVIDER FOR INDUSTRY.</p>
                     </div>
                 </div>

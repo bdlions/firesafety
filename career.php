@@ -11,7 +11,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="header-bg">
                     <div class="row margin-top-bottom-10px">
                         <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
-                            <a href="index.php"><img class="img-responsive margin-top-bottom-10px" src="images/logo.png" alt="Logo"></a>
+                            <a href="index.php" class="margin-top-bottom-10px"><img class="img-responsive" src="images/logo.png" alt="Logo"></a>
                         </div>
                         <div class="col-xs-12 col-sm-9 col-md-8 col-lg-8">
                             <nav class="navbar navbar-default header-navbar-custom margin-top-bottom-50px">

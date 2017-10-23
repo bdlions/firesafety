@@ -58,7 +58,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="header-bg">
                     <div class="row margin-top-bottom-10px">
                         <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
-                            <a href="index.php"><img class="img-responsive margin-top-bottom-10px" src="images/logo.png" alt="Logo"></a>
+                            <a href="index.php" class="margin-top-bottom-10px"><img class="img-responsive" src="images/logo.png" alt="Logo"></a>
                         </div>
                         <div class="col-xs-12 col-sm-9 col-md-8 col-lg-8">
                             <nav class="navbar navbar-default header-navbar-custom margin-top-bottom-50px">
@@ -96,7 +96,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container">
             <div class="row form-group margin-top-bottom-50px">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 wow fadeInDown" data-wow-duration="1s">
-                    <h4> Address/Contact Info : </h4><br>                
+                    <h1 class="font-size-24"> Address/Contact Info : </h1><br>                
                     21 Bukit Batok Crescent #12-79 Wcega <br>                                  
                     Tower Singapore 658065  <br> <br>     
                     Email: sales@fsmcsg.com        <br>                               

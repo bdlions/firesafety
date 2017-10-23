@@ -9,18 +9,20 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Fire safety management consultancy is established by a potential team of registed and very experienced fire safety managers from Singapore.">
+        <meta name="description" content="Fire safety management consultancy is established by a potential
+              team of registed and very experienced fire safety managers from Singapore.">
         <meta name="author" content="Nazmul Hasan, Alamgir Kabir, A.K.M.Nazmul Islam">
 
         <!-- Meta tags for facebook -->
-        <meta property="og:description" content="Fire safety management consultancy is established by a potential team of registed and very experienced fire safety managers from Singapore.">
+        <meta property="og:description" content="Fire safety management consultancy is established by a potential
+              team of registed and very experienced fire safety managers from Singapore.">
         <meta property="og:site_name" content="fsmcsg">
         <meta property="og:title" content="Fire Safety Manager">
         <meta property="og:type" content="website">
         <meta property="og:url" content="http://www.fsmcsg.com/">
         <meta property="og:locale" content="en">
         <meta property="og:image" content="http://www.fsmcsg.com/images/slide1.jpg">
-        <script async type="application/ld+json">
+        <script type="application/ld+json">
             {
             "@context": "http://schema.org",
             "@type": "Organization",
@@ -36,7 +38,7 @@
         <!--Meta ends-->
 
         <!-- Google Tag Manager -->
-        <script async>(function (w, d, s, l, i) {
+        <script>(function (w, d, s, l, i) {
                 w[l] = w[l] || [];
                 w[l].push({'gtm.start':
                             new Date().getTime(), event: 'gtm.js'});
@@ -50,11 +52,12 @@
         <!-- End Google Tag Manager -->
 
         <!-- Google Analytics -->
-        <script async>
+        <script>
             (function (i, s, o, g, r, a, m) {
                 i['GoogleAnalyticsObject'] = r;
                 i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)}, i[r].l = 1 * new Date();
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
                 a = s.createElement(o),
                         m = s.getElementsByTagName(o)[0];
                 a.async = 1;

@@ -30,7 +30,7 @@ if (isset($_POST['quick-msg-send-btn'])) {
         </div>
     </div>
 </footer>
-<section class="quick-msg-section">
+<div class="quick-msg-section">
     <div class="row">
         <div class="col-xs-offset-1 col-xs-11 col-sm-offset-4 col-sm-8 col-md-offset-8 col-md-4 col-lg-offset-9 col-lg-3">
             <div class="row">
@@ -95,7 +95,7 @@ if (isset($_POST['quick-msg-send-btn'])) {
             </div>
         </div>
     </div>
-</section>
+</div>
 <!--JS starts-->
 <script src="js/jquery-1.12.0.min.js"></script>
 <script src="js/custom.js"></script>
