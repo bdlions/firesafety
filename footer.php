@@ -96,23 +96,16 @@ if (isset($_POST['quick-msg-send-btn'])) {
         </div>
     </div>
 </section>
+<!--JS starts-->
+<script type="text/javascript">
+    $(document).ready(function (){$("#small-msg-box").click(function (){$("#small-msg-box").hide();$("#large-msg-box").show();});$("#close").click(function (){$("#large-msg-box").hide();$("#small-msg-box").show();});});
+</script>
+<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<!--JS ends-->
+
 </body>
 </html>
-<!--JS starts-->
-<script type="text/javascript" src="js/jquery-1.12.0.min.js" crossorigin="anonymous"></script>
-<script type="text/javascript" src="js/bootstrap.min.js" crossorigin="anonymous"></script>
-<script type="text/javascript" src="js/wow.min.js" crossorigin="anonymous"></script>
-<script type="text/javascript" src="js/custom.js" crossorigin="anonymous"></script>
-<!--JS ends-->
-<script type="text/javascript" crossorigin="anonymous">
-    $(document).ready(function () {
-        $("#small-msg-box").click(function () {
-            $("#small-msg-box").hide();
-            $("#large-msg-box").show();
-        });
-        $("#close").click(function () {
-            $("#large-msg-box").hide();
-            $("#small-msg-box").show();
-        });
-    });
-</script>
+
