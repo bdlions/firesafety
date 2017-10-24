@@ -67,20 +67,20 @@ if (isset($_POST['quick-msg-send-btn'])) {
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                        <label for="name" title="Name">Name</label>
-                                        <input class="form-control" type="text" placeholder="Your Name" name="footer_name">
+                                        <label for="footer_name" title="footer name">Name</label>
+                                        <input id="footer_name" class="form-control" type="text" placeholder="Your Name" name="footer_name">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                        <label for="email" title="Email">Email</label>
-                                        <input class="form-control" type="text" placeholder="Your Email" name="footer_email">
+                                        <label for="footer_email" title="footer email">Email</label>
+                                        <input id="footer_email" class="form-control" type="text" placeholder="Your Email" name="footer_email">
                                     </div>
                                 </div>
                                 <div class="row form-group">
                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                        <label for="message" title="Message">Message</label>
-                                        <textarea rows="3" class="form-control" placeholder="Your Message" name="footer_message"></textarea>
+                                        <label for="footer_message" title="footer message">Message</label>
+                                        <textarea id="footer_message" rows="3" class="form-control" placeholder="Your Message" name="footer_message"></textarea>
                                     </div>
                                 </div>
                                 <div class="row form-group">

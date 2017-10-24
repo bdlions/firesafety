@@ -116,34 +116,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                         <div class="row form-group">
                             <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
-                                <label class="wow fadeInLeftBig fade-timer-1st">Your Name (required)</label>
+                                <label for="name" title="name" class="wow fadeInLeftBig fade-timer-1st">Your Name (required)</label>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7">
-                                <input type="text" class="form-control wow fadeInRightBig fade-timer-1st" name="name">
+                                <input id="name" type="text" class="form-control wow fadeInRightBig fade-timer-1st" name="name">
                             </div>
                         </div>
                         <div class="row form-group">
                             <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
-                                <label class="wow fadeInLeftBig fade-timer-2nd">Your Email (required)</label>
+                                <label for="email" title="email" class="wow fadeInLeftBig fade-timer-2nd">Your Email (required)</label>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7">
-                                <input type="text" class="form-control wow fadeInRightBig fade-timer-2nd" name="email">
+                                <input id="email" type="text" class="form-control wow fadeInRightBig fade-timer-2nd" name="email">
                             </div>
                         </div>
                         <div class="row form-group">
                             <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
-                                <label class="wow fadeInLeftBig fade-timer-3rd">Your Contact No (required)</label>
+                                <label for="contact_no" title="contact no" class="wow fadeInLeftBig fade-timer-3rd">Your Contact No (required)</label>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7">
-                                <input type="text" class="form-control wow fadeInRightBig fade-timer-3rd" name="contact_no">
+                                <input id="contact_no" type="text" class="form-control wow fadeInRightBig fade-timer-3rd" name="contact_no">
                             </div>
                         </div>
                         <div class="row form-group">
                             <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
-                                <label class="wow fadeInLeftBig fade-timer-4th">Company Name</label>
+                                <label for="company_name" title="company name" class="wow fadeInLeftBig fade-timer-4th">Company Name</label>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7">
-                                <input type="text" class="form-control wow fadeInRightBig fade-timer-4th" name="company_name">
+                                <input id="company_name" type="text" class="form-control wow fadeInRightBig fade-timer-4th" name="company_name">
                             </div>
                         </div>
                         <!--                    <div class="row form-group">
@@ -156,10 +156,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                             </div>-->
                         <div class="row form-group">
                             <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
-                                <label class="wow fadeInLeftBig fade-timer-5th">Your Message</label>
+                                <label for="message" title="message" class="wow fadeInLeftBig fade-timer-5th">Your Message</label>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7">
-                                <textarea rows="5" class="form-control wow fadeInRightBig fade-timer-5th" name="message"></textarea>
+                                <textarea id="message" rows="5" class="form-control wow fadeInRightBig fade-timer-5th" name="message"></textarea>
                             </div>
                         </div>
                         <div class="row form-group">
