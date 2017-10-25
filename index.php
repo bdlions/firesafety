@@ -59,11 +59,11 @@
                         </ol>
                         <!--Controls--> 
                         <a class="left carousel-control" href="#carouselFade" role="button" data-slide="prev">
-                            <span class="tp-leftarrow " aria-hidden="true"></span>
+                            <span class="tp-leftarrow " aria-hidden="true"><img src="images/large_left.png" alt="leftarrow"></span>
                             <span class="sr-only"></span>
                         </a>
                         <a class="right carousel-control" href="#carouselFade" role="button" data-slide="next">
-                            <span class="tp-rightarrow" aria-hidden="true"></span>
+                            <span class="tp-rightarrow" aria-hidden="true"><img src="images/large_right.png" alt="rightarrow"></span>
                             <span class="sr-only"></span>
                         </a>
                     </div>
